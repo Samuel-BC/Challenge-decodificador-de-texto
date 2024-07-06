@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagem/Alura icone.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img src="imagem/Alura icone.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+    <main>
+        <section class="codificador">
+            <textarea class="codificar" placeholder="Digite seu texto"></textarea>
+            <div class="codificador-alerta">
+                <img src="imagem/Alerta.svg" alt="Imagem-Alerta" class="img-alerta">
+                <p class="texto-alerta">Apenas letras minúsculas sem acentos</p>
+            </div>
+            <div class="codificador-conteudo">
+                <button type="submit" class="btn-codificar">Codificar</button>
+                <button type="submit" class="btn-descodificar">Descodificar</button>
+            </div>
+        </section>
+        <section class="cartao">
+            <div class="cartao-conteudo">
+                <img src="imagem/Boneco.svg" alt="Imagem Boneco" class="img-boneco">
+                <p class="texto-um">Nenhuma mensagem encontrada</p>
+                <p class="texto-dois">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <textarea type="mensagem" class="avaliar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="cpyright">&copy; copyright 2024 - Codificador de texto - Desenvolvido por Samuel-BC</p>
+        <a href="https://www.linkedin.com/in/bruno-samuel-/">
+            <img src="imagem/linkedin.svg" alt="Icone linkedin" class="linkedin">
+        </a>
+        <a href="https://github.com/Samuel-BC">
+            <img src="imagem/github.svg" alt="Icone Github" class="github">
+        </a>
+    </footer>
+    <script src="srcipts.js"></script>
+</body>
+</html>
